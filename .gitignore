@@ -1,0 +1,21 @@
+# Gradle / IDE
+.gradle/
+.idea/
+*.iml
+build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 构建产物（dist 里的安装包按需保留）
+app/build/
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+
+# 签名密钥，绝不提交
+keystore/
+*.jks
+*.keystore

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">易监控</string>
+    <string name="tab_monitor">监控</string>
+    <string name="tab_apps">应用</string>
+    <string name="tab_records">记录</string>
+    <string name="tab_settings">设置</string>
+
+    <string name="channel_keepalive">常驻运行</string>
+    <string name="channel_keepalive_desc">保持易监控后台运行，请在系统设置中允许后台与自启动</string>
+    <string name="channel_alert">到账提醒</string>
+
+    <string name="tip_listener_off">通知使用权未开启，无法监听收款通知</string>
+    <string name="tip_overlay_off">悬浮窗权限未开启</string>
+    <string name="tip_battery">建议关闭电池优化，避免后台被系统清理</string>
+    <string name="accessibility_desc">用于保持后台进程存活，提升收款通知的监听稳定性。不会读取或操作任何界面内容。</string>
+</resources>

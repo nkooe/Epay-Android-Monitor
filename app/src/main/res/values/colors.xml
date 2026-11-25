@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 微信风格配色 -->
+    <color name="wx_green">#07C160</color>
+    <color name="wx_green_dark">#06AD56</color>
+    <color name="wx_green_pressed">#059748</color>
+    <color name="wx_bg">#EDEDED</color>
+    <color name="wx_card">#FFFFFF</color>
+    <color name="wx_text">#191919</color>
+    <color name="wx_text_sub">#888888</color>
+    <color name="wx_text_hint">#B2B2B2</color>
+    <color name="wx_divider">#EDEDED</color>
+    <color name="wx_red">#FA5151</color>
+    <color name="wx_blue">#576B95</color>
+    <color name="wx_orange">#FA9D3B</color>
+    <color name="wx_input_bg">#F7F7F7</color>
+    <color name="wx_input_stroke">#E5E5E5</color>
+    <color name="wx_tab_unselected">#7A7E83</color>
+    <color name="wx_status_bar">#06AD56</color>
+    <color name="wx_transparent">#00000000</color>
+    <color name="wx_mask">#66000000</color>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.YJK" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/wx_green</item>
+        <item name="android:colorPrimaryDark">@color/wx_green_dark</item>
+        <item name="android:colorAccent">@color/wx_green</item>
+        <item name="android:statusBarColor">@color/wx_status_bar</item>
+        <item name="android:navigationBarColor">@color/wx_card</item>
+        <item name="android:windowBackground">@color/wx_bg</item>
+        <item name="android:textColorPrimary">@color/wx_text</item>
+        <item name="android:textColorSecondary">@color/wx_text_sub</item>
+        <item name="android:textColorHint">@color/wx_text_hint</item>
+    </style>
+
+    <!-- 文本基类（点号命名会自动推导父样式，必须存在） -->
+    <style name="YJK" />
+    <style name="YJK.Text" />
+
+    <!-- 顶部标题栏 -->
+    <style name="YJK.Text.Title">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!-- 列表主文字 -->
+    <style name="YJK.Text.Cell">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/wx_text</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="YJK.Text.Sub">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/wx_text_sub</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="YJK.Text.Section">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/wx_text_sub</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+</resources>
